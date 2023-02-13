@@ -6,6 +6,18 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "files.autoSave": "afterDelay",
   "editor.lineNumbers": "relative",
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true, // !!!
+      "strings": true // !!!
+    }
+  },
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true, // !!!
+    "strings": true // !!!
+  },
   /* ======== Python ======== */
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
@@ -15,8 +27,6 @@
   ],
   "python.formatting.provider": "black",
   "python.analysis.typeCheckingMode": "off",
-  "python.analysis.inlayHints.functionReturnTypes": true,
-  "python.analysis.inlayHints.variableTypes": true,
   "python.analysis.completeFunctionParens": true,
   "python.languageServer": "Pylance",
   "python.testing.pytestArgs": [
